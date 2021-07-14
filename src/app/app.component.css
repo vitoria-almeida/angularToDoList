@@ -1,0 +1,90 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(240,238,105,1) 12%, rgba(253,239,85,1) 46%, rgba(255,243,62,1) 81%);
+}
+
+main {
+    height: 65%;
+    width: 30%;   
+}
+
+h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+#divAddTask {
+    background-color: white;
+    width: 100%;
+    border-radius: 8px;
+    padding-left: 10px;
+    box-shadow: 2px 3px rgba(179, 179, 179, 0.336);
+}
+
+#divAddTask input {
+    border: none;
+    padding: 10px 0 10px 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#divAddTask button {
+    border: none;
+    background-color: rgba(253,239,85,1);
+    color: white;
+    font-weight: bolder;
+    padding: 5px 15px 5px 15px;
+    position: relative;
+    right: 20px;
+    border-radius: 20px;
+}
+
+#divTasks {
+    background-color: white;
+    padding: 5px 30px 20px 30px;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 3px rgba(179, 179, 179, 0.336);
+    overflow: hidden;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    height: 40px;  
+    margin-top: 25px;
+}
+
+.bi-trash {
+   color: rgb(255, 53, 53);
+}
+
+.deletebutton {
+    background-color: white;
+    border: none;
+    height: 38px;
+}
+
+#divAddTask {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

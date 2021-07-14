@@ -1,0 +1,8 @@
+.taskDoneStyle {
+    text-decoration:line-through;
+    color: grey;
+}
+
+p {
+    font-size: 26px;
+}

@@ -1,0 +1,6 @@
+<p [ngClass]="{taskDoneStyle: taskDone}">   
+    <input type="checkbox" class="checkbox" name="classe" value="taskdone" (change)="taskDone = !taskDone"> 
+    <ng-content></ng-content>   
+</p>
+
+
